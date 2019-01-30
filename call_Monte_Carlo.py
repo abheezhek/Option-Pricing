@@ -24,13 +24,14 @@ dt = T/n
 ############################################################################################
 ###########################################################################################
 
+#Closed form solution
+
 #Initialize the variables
 C = 0
 #Variables to capture the expected Spot price at time T
 temp = 0
 Convergence = []
 
-#Closed form solution
 # Generate an array of Standard Normally distributed random numbers
 phi = np.random.standard_normal(I)  
 S_T = S_0 * np.exp((r - 0.5 * (sigma ** 2)) * T + sigma * np.sqrt(T) * phi)

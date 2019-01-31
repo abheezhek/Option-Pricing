@@ -1,3 +1,3 @@
 # Option-Pricing
-Check out my blog..
+blog on derivative pricing..
 https://mathfinancequant.wordpress.com/

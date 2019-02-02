@@ -17,7 +17,7 @@ Option = 'C'         #P for put and C call
 Barrier = 120       
 NAS = 20
 
-dS = 2 * Strike / NAS
+dS = Barrier / NAS
 dt = 0.9 / NAS / NAS / Vol / Vol             #for model to be stable dt <= 1/NAS/NAS/Vol/Vol
 NTS = int(Expiration / dt) + 1
 dt = Expiration / NTS
